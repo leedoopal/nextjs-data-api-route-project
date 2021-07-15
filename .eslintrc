@@ -28,6 +28,7 @@
     "react/jsx-filename-extension": "off",
     "react-jsx-one-expression-pre-line": "off",
     "object-curly-newline": 0,
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "no-useless-return": "off"
   }
 }
