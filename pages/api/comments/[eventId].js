@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 
 async function handler(req, res) {
-  const eventId = req.query;
+  const { eventId } = req.query;
   const client = await MongoClient.connect(
     'mongodb+srv://1233wsh:qqssuNPC5jWdDdaG@cluster0.esdqh.mongodb.net/events?retryWrites=true&w=majority',
   );
